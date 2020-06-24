@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+span {
+	position: absolute;
+	font-size: 30px;
+	color: white;
+}
+
+span:nth-of-type(1) {
+	top: 33px;
+	left: calc(50% + 85px);
+}
+
+span:nth-of-type(2) {
+	top: 95px;
+	left: calc(50% + 147px);
+}
+
+span:nth-of-type(3) {
+	top: calc(50% - 17px);
+	left: calc(50% + 170px);
+}
+
+span:nth-of-type(4) {
+	bottom: 95px;
+	left: calc(50% + 147px);
+}
+
+span:nth-of-type(5) {
+	bottom: 33px;
+	left: calc(50% + 85px);
+}
+
+span:nth-of-type(6) {
+	bottom: 10px;
+	left: calc(50% - 8px);
+}
+
+span:nth-of-type(7) {
+	bottom: 33px;
+	left: calc(50% - 93px);
+}
+
+span:nth-of-type(8) {
+	bottom: 95px;
+	left: calc(50% - 155px);
+}
+
+span:nth-of-type(9) {
+	top: calc(50% - 17px);
+	left: calc(50% - 185px);
+}
+
+span:nth-of-type(10) {
+	top: 95px;
+	left: calc(50% - 162px);
+}
+
+span:nth-of-type(11) {
+	top: 33px;
+	left: calc(50% - 99px);
+}
+
+span:nth-of-type(12) {
+	top: 10px;
+	left: calc(50% - 15px);
+}
+
+.number {
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	height: 400px;
+	margin: 0px 201px;
+}
+
+#clock {
+	background: gray/*url(IMG_6007.JPG)*/;
+	background-size: cover;
+	height: 400px;
+	width: 400px;
+	border-radius: 100%;
+	/*margin: 50px;*/
+	position: relative;
+}
+
+#clock:hover {
+	cursor: grab;
+}
+
+#clock:active {
+	cursor: grabbing;
+}
+
+#seconds, #minutes, #hours {
+	border-radius: 15px;
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 50%;
+}
+
+#seconds {
+	width: 2px;
+	height: 170px;
+	background-color: white;
+	left: calc(50% - 1px);
+}
+
+#minutes {
+	width: 6px;
+	height: 160px;
+	background-color: black;
+	left: calc(50% - 3px);
+}
+
+#hours {
+	width: 8px;
+	height: 100px;
+	background-color: black;
+	left: calc(50% - 4px);
+}
+
+#circle {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 15px;
+	transform-origin: bottom;
+	position: absolute;
+	bottom: calc(50% - 10px);
+	left: calc(50% - 10px);
+}

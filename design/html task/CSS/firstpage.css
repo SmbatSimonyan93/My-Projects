@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body, section {
+    height: 100%;
+}
+body {
+    background: url(../imgs/background.jpg) fixed;
+    background-size: cover;
+    cursor: url(../imgs/alt_curs.cur), auto;
+}
+main {
+    margin: 70px 0;
+}
+footer h1, footer h2 {
+    padding: 20px 0;
+}
+footer nav:nth-of-type(2) a img {
+    height: 20px;
+    width: 30px;
+
+    margin: 5px;
+
+    -webkit-filter: blur(2px);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:link, a:visited {
+    color: #d5e9c4;
+}
+dialog {
+    max-height: 145px;
+    width: 300px;
+
+    position: absolute;
+    top: 118px;
+    
+    color: #7a5757;
+    text-overflow: ellipsis;
+
+    background: #d5e9c4;
+    overflow: auto;
+
+    padding: 5px;
+    border: 4px solid #7a5757;
+}
+h3 {
+    text-align: center;
+}
+hr {
+    width: 470px;
+
+    border-color: #d5e9c4;
+
+    margin: auto;
+}
+p {
+    padding: 7px 20px;
+}
+q {
+    quotes: "(" ")";
+}
+section {
+    width: 100%;
+
+    display: table;
+}
+strong {
+    color: #cb9f8e;
+}
+div:lang(es), div:lang(es_es) {
+    height: 20px;
+    width: 30px;
+    
+    background: url(../imgs/flags/spain.png);
+    background-size: cover;
+    display: inline-block;
+
+    margin: 5px;
+
+    -webkit-filter: blur(2px);
+}
+div:lang(es):hover, div:lang(es_es):hover, footer nav:nth-of-type(2) a img:hover {
+    -webkit-filter: blur(0);
+}
+details {
+    margin: 30px 0;
+}
+    summary {
+        font-size: 24px;
+
+        outline: none;
+    }
+dl {
+    padding: 20px;
+}
+    dt, dd {
+        padding: 7px;
+    }
+    dt, a {
+        font-weight: 700;
+    }
+.container div {
+    position: relative;
+}
+.desc a, dialog a:link, dialog a:visited, .desc  {
+    color: #436d6b;
+}
+.desc a img, .logo {
+    height: 100px;
+    width: 100px;
+}
+.appr_credit {
+    left: 40px;
+}
+.attribution {
+    align-items: center;
+
+    display: flex;
+}
+.attr_logo {
+    height: 50px;
+    width: 50px;
+
+    margin-right: 10px;
+}
+.container {
+    width: 780px;
+    
+    color: #d5e9c4;
+    font-family: Dosis, sans-serif;
+    text-align: justify;
+
+    background: #436d6b;
+    opacity: .8;
+    
+    padding: 20px;
+    margin: auto;
+}
+.content {
+    vertical-align: middle;
+
+    display: table-cell;
+}
+.desc {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #d5e9c4;
+    display: flex;
+
+    margin: 30px;
+}
+.exception {
+    top: -10px;
+    left: 325px;
+}
+.indicate {
+    left: 400px;
+}
+.logo_link {
+    transition-duration: 2s;
+}
+.logo_link:hover {
+    transform: rotate(720deg);
+}
+.publicity {
+    top: 45px;
+    left: 50px;
+}
+.same_license {
+    top: 85px;
+    left: 475px;
+}
+.techno_measures {
+    top: 175px;
+    left: 160px;
+}
+.top {
+    justify-content: center;
+
+    display: flex;
+}
+.top_text {
+    align-self: center;
+    color: #d5e9c4;
+    font-size: 35px;
+    line-height: 30px;
+    
+    padding-left: 16px;
+}

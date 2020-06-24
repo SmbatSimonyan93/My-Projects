@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	display: table;
+	margin: auto;
+}
+
+header {
+	display: table-row;
+    height: 60px;
+}
+
+main {
+    display: table-row;
+
+}
+
+nav {
+	display: inline-block;
+}
+
+nav, .log_in {
+	font-family: Helvetica , Arial;
+	align-self: center;
+}
+
+menuitem {
+	padding: 8px;
+	margin-left: 25px;
+	position: relative;
+}
+
+menuitem:hover .cube {
+	display: block;
+}
+
+menuitem:hover {
+	color: #ef3934;
+	width: max-content;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	align-self: center;
+}
+
+p {
+	padding: 0px 30px 15px 30px;
+    text-align: center;
+}
+
+p > a {
+	font-size: 15px;
+}
+
+p > a:hover {
+	color: #ef3934;
+}
+
+div > a {
+	margin-left: 40px;
+}
+
+.caratRed {
+	display: none;
+}
+
+menuitem:hover .carat {
+	display: none;
+}
+
+menuitem:hover .caratRed {
+	display: inline;
+}
+
+.log_in {
+	display: inline-flex;
+	margin-left: 100px;
+	margin-right: 85px;
+}
+
+.log {
+	text-decoration: none;
+	color: black;
+}
+
+.sign:hover {
+	background-color: #ef3934;
+	color: white;
+}
+
+.sign {
+	padding: 10px 30px;
+	border: 1px solid #ef3934;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-left: 10px;
+	transition-duration: .5s;
+	color: #ef3934;
+}
+
+.cube {
+	display: none;
+	background-color: white;
+	position: absolute;
+	margin: auto;
+	top: 32px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	height: auto;
+	width: max-content;
+	min-width: 199px;
+}
+
+.nav_menu {
+	background-color: #F6F6F7;
+	display: flex;
+	height: 100%;
+	min-width: 1366px;
+	margin: auto;
+}
+
+.e_logo {
+	height: 34px;
+	width: 108px;
+	padding: 0px 27px 0px 72px;
+}
+
+.store:hover a, .log:hover {
+	color: #ef3934;
+}
+
+.corner {
+    height: 9px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(-43deg);
+}
+
+.c1 {
+	margin-left: 123px;
+}
+
+.c2 {
+	margin-left: 106px;
+}
+
+.c3 {
+	margin-left: 107px;
+}
+
+.c4 {
+	margin-left: 138px;
+}
+
+.c5 {
+	margin-left: 111px;
+}
+
+.products {
+	left: -52px;
+}
+
+.pricing {
+	left: -50px;
+}
+
+.support {
+	left: -43px;
+}
+
+.resources {
+	left: -54px;
+}
+
+.company {
+	left: -35px;
+}
+
+.homepage {
+	height: 752px;
+	background-image: url(../imgs/homepage.jpg);
+	background-size: cover;
+}
+
+.exish {
+	width: 1210px;
+    margin: auto;
+    padding-top: 113px;
+}
+
+.middle_text {
+    height: 326px;
+    width: 494px;
+    margin: 0 0 0 17px;
+    color: white;
+}
+
+.h1_text .h2_text {
+	font-family: Helvetica , Arial;
+}
+
+.h1_text {
+	margin-bottom: 38px;
+	font-size: 47px;
+}
+
+.h2_text {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.about_me {
+	height: 45px;
+	width: 373px;
+}
+
+.formsize {
+    width: max-content;
+    display: flex;
+}
+
+.email {
+	height: 45px;
+    width: 260px;
+    font-family: Helvetica , Arial;
+    border: none;
+    border-radius: 5px 0px 0px 5px;   
+    font-size: 15px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.button_get {
+	color: white;
+    height: 45px;
+    width: 93px;
+    background-color: #ef3934;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 15px;
+    outline: none;
+}
+
+.descmenu {
+	height: 269px;
+    transform: skewY(8deg) translateY(50%);
+    background-color: white;
+    margin-top: 25px;
+}
+
+.container {
+	opacity: 0.8;
+    width: 1400px;
+    transform: skewY(-8deg) translateY(-50%);
+    margin: auto;
+}
+
+.host, .document, .badge, .pre_r{
+	display: inline-block;
+    width: 235px;
+    background-color: hsla(0,0%,100%,.97);
+    margin-left: 90px;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.notifications {
+	margin-top: 29px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hn, .ds, .bp, .pr {
+	color: #282c36;
+    margin: 21px;
+    text-align: center;
+    min-width: 185px;
+}
+
+.nda {
+	height: 48px;
+	margin-top: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.printer {
+	height: 48px;
+	margin-top: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.email-open {
+	height: 48px;
+	margin-top: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logos {
+	display: flex;
+    max-width: 1612px;
+    height: 50px;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+.logos img {
+	margin-left: 90px;
+}
+
+.footer {
+	background-color: red;
+    height: 600px;
+    width: 98%;
+    display: inline-block;
+    margin-top: 260px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+footer div {
+    height: 128px;
+    display: inline-block;
+    width: 25%;
+    padding-left: 32px;
+}
